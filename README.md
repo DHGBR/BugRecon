@@ -14,12 +14,7 @@
 
 ---
 
-## 🧠 Público-alvo
 
-- Estudantes de Cibersegurança
-- Pentesters iniciantes e avançados
-- Bug Bounty Hunters
-- Instrutores de segurança ofensiva
 
 ---
 
