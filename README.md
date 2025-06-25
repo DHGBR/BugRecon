@@ -26,12 +26,12 @@ Estudantes de cibersegurança
 Professores e instrutores de segurança ofensiva
 
 📦 Como usar
-bash
-Copiar
-Editar
 git clone https://github.com/seu-usuario/bugrecon.git
 cd bugrecon
 python main.py payloads xss
+
+
+
 🤝 Contribua com o projeto
 Sugestões, correções e novos módulos são muito bem-vindos!
 Abra uma issue ou envie seu pull request para ajudar a fortalecer a comunidade.
