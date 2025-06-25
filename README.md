@@ -1,38 +1,33 @@
-🐞 BugRecon – Your Personal Bug Bounty Toolkit
-BugRecon é uma ferramenta em Python desenvolvida para auxiliar profissionais e estudantes de segurança ofensiva nas etapas de reconhecimento, exploração, bypass e estudo técnico em programas de Bug Bounty e pentest.
+# 🐞 BugRecon – Your Personal Bug Bounty Toolkit
 
-A proposta da ferramenta é unificar dicas, payloads, automações e boas práticas em uma única interface de linha de comando, organizada de forma modular e expansível.
+![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square)
+![Status](https://img.shields.io/badge/project-CLI--ready-green?style=flat-square)
+![License](https://img.shields.io/github/license/seu-usuario/bugrecon?style=flat-square)
 
-🚀 Funcionalidades
-🔍 Reconhecimento: Enumeração de domínios, IPs e caminhos com suporte a ferramentas externas.
+**BugRecon** é uma ferramenta ofensiva de linha de comando feita em Python para automatizar tarefas comuns no processo de Bug Bounty e Pentest. Com ela, você pode:
 
-💥 Payloads: Acesso rápido a payloads organizados (XSS, LFI, SQLi, SSTI, etc.).
+- Executar reconhecimento com ferramentas externas
+- Acessar centenas de payloads prontos
+- Receber dicas de bypass para diversas vulnerabilidades
+- Aprender fundamentos técnicos com explicações rápidas
+- Utilizar templates Nuclei em segundos
 
-🛡️ Bypass: Técnicas práticas para escapar de WAFs e filtros de segurança.
+---
 
-⚙️ Execução de ferramentas: Suporte para rodar ffuf, nuclei, httpx, entre outras.
+## 🧠 Público-alvo
 
-📚 Modo Educativo: Explicações rápidas para apoiar o aprendizado contínuo.
+- Estudantes de Cibersegurança
+- Pentesters iniciantes e avançados
+- Bug Bounty Hunters
+- Instrutores de segurança ofensiva
 
-📑 Templates: Arquivos e modelos prontos para scanners como Nuclei e relatórios customizados.
+---
 
-🧰 Para quem é essa ferramenta?
-Pentesters
+## 📦 Requisitos
 
-Caçadores de bug bounty
+### ✅ Python 3.8 ou superior
 
-Estudantes de cibersegurança
+Verifique com:
 
-Professores e instrutores de segurança ofensiva
-
-📦 Como usar
-git clone https://github.com/seu-usuario/bugrecon.git
-cd bugrecon
-python main.py payloads xss
-
-
-
-🤝 Contribua com o projeto
-Sugestões, correções e novos módulos são muito bem-vindos!
-Abra uma issue ou envie seu pull request para ajudar a fortalecer a comunidade.
-
+```bash
+python3 --version
